@@ -1,5 +1,4 @@
-# Exercise Two - Justine Ha
-# Dynamic Web Applications - Fall 2022
+# Dynamic Web Applications, Exercise Two (Fall 2022) - Justine Ha 
 
 ## Getting Started with Create React App
 
