@@ -1,10 +1,16 @@
 import React from "react";
+import ArticleCard from '../components/ArticleCard';
+import Article from '../pages/article';
 
 function List() {
     return (
-        <div>
-         <h1>Article List</h1>
-        </div>
+        <main className="">
+         <h1>Articles</h1>
+         <ArticleCard />
+         <ArticleCard />
+         <ArticleCard />
+         <Article />
+        </main>
     );
 }
 
