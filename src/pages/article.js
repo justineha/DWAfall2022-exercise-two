@@ -1,11 +1,17 @@
 import React from "react";
+import { useParams } from "react-router";
+import Data from '../components/data';
 
 function Article() {
+    const {id} = useParams();
+
+    const articleData = Data.find((article) => article.id === id);
+
     return (
         <main>
             <header>
                 <div className="headercontent">
-                    <h1>Articles Title</h1>
+                    <h1>{articleData.title}</h1>
                     <p className="title-date">Tuesday, August 22, 2022</p>
                     <p className="title-blurb">Note that this is an Article Blurb. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
