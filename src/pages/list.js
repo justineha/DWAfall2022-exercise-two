@@ -11,6 +11,7 @@ function List() {
                 key={i}
                 blurb={article.blurb}
                 date={article.publishedDate}
+                id={article.id}
                 imageAlt={article.image.alt}
                 imageSrc={article.image.url}
                 title={article.title}
