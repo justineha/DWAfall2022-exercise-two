@@ -1,6 +1,6 @@
 import React from "react";
 
-function ArticleCard( {blurb, date, imageAlt, imageSrc, title} ) {
+function ArticleCard( {blurb, date, imageAlt, imageSrc, title, id} ) {
     return (
         <div className="articleCard">
             <div className="articleCard--image">
