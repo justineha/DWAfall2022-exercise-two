@@ -5,7 +5,7 @@
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 42px;
     padding: 25px;
 }
 
@@ -63,11 +63,33 @@ header h1 {
     padding-bottom: 2px;
 }
 
+header p {
+    text-align: center;
+}
+
 .sectioncontent {
     flex-direction: column;
     padding: 60px;
     padding-top: 10px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 350px;
+    padding-right: 350px;
 
+}
+.sectioncontent p {
+    margin-bottom: 20px;
+}
+
+.sectioncontent h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sectioncontent h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sectioncontent h3 {
+    font-size: 32px;
+    font-weight: bold;
 }
