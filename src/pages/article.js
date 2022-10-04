@@ -26,24 +26,22 @@ function Article() {
                 <p>{articleDate}</p>
                 <p className="title-blurb">{articleData.blurb}</p>
             </header>
-            <section>
-                <div className="sectioncontent">
+            <section className="section--content">
                     {articleData.articleText.map((text, i) => {
                         const type = text.type;
                         switch(type) {
                            case "p":
                                 return <p key={i}>{text.data}</p>; /* every single element in react needs a unique identifier*/
                             case "h1":
-                                return <p key={i}>{text.data}</p>;
+                                return <h1 key={i}>{text.data}</h1>;
                             case "h2":
-                                return <p key={i}>{text.data}</p>;
+                                return <h2 key={i}>{text.data}</h2>;
                             case "h3":
-                                return <p key={i}>{text.data}</p>;
+                                return <h3 key={i}>{text.data}</h3>;
                             default:
-                                return <p key={i}>{text.data}</p>;
+                                return <h4 key={i}>{text.data}</h4>;
                         }
                     })}
-                </div>
             </section>
         </main>
     );

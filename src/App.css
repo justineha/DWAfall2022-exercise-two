@@ -59,37 +59,39 @@ header {
 header h1 {
     align-items: center;
     justify-items: center;
-    text-align: center;
-    padding-bottom: 2px;
+    text-align: left;
 }
 
 header p {
-    text-align: center;
+    text-align: left;
 }
 
-.sectioncontent {
+.section--content {
     flex-direction: column;
     padding: 60px;
     padding-top: 10px;
     padding-left: 350px;
     padding-right: 350px;
-
 }
-.sectioncontent p {
+.section--content p {
     margin-bottom: 20px;
+    text-align: left;
 }
 
-.sectioncontent h1 {
-    font-size: 32px;
+.section--content h1 {
+    font-size: 25px;
     font-weight: bold;
+    text-align: left;
 }
 
-.sectioncontent h2 {
-    font-size: 32px;
+.section--content h2 {
+    font-size: 25px;
     font-weight: bold;
+    text-align: left;
 }
 
-.sectioncontent h3 {
-    font-size: 32px;
+.section--content h3 {
+    font-size: 25px;
     font-weight: bold;
+    text-align: left;
 }
